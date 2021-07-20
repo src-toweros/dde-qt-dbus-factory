@@ -2,8 +2,8 @@
 %global repo   dde-qt-dbus-factory
 
 Name:           dde-qt-dbus-factory
-Version:        5.2.0.0
-Release:        3
+Version:        5.3.0.19
+Release:        1
 Summary:        A repository stores auto-generated Qt5 dbus code
 License:        GPLv3+ and LGPLv2+
 URL:            http://shuttle.corp.deepin.com/cache/repos/eagle/release-candidate/56qX566h6IGU6LCD5rWL6K-V6aqM6K-BMDUyMTQ5Mg/pool/main/d/dde-qt-dbus-factory/
@@ -55,5 +55,9 @@ sed -i "s/python/python3/g" Makefile
 %{_libdir}/cmake/DFrameworkdbus/DFrameworkdbusConfig.cmake
 
 %changelog
+* Thu Jul 08 2021 weidong <weidong@uniontech.com> - 5.3.0.19-1
+- Update 5.3.0.19
+
 * Thu Jul 30 2020 openEuler Buildteam <buildteam@openeuler.org> - 5.2.0.0-3
 - Package init
+
